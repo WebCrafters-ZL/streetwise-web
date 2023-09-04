@@ -7,13 +7,14 @@
     box-sizing: border-box;
 }
 
+/*-- Header --*/
+
 .container{
     max-width: 1080px;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
 .logo,.sociais{
@@ -29,7 +30,6 @@ header{
     background-color: #FFA500;
     width: 100%;
     padding: 5px;
-
 }
 
 .menu{
@@ -85,6 +85,9 @@ a:hover{
     color: #fff;
 }
 
+/*-- Fim do Header --*/
+/*-- Inicio do Body --*/
+
 body{
     line-height: 1;
     margin:0;
@@ -95,17 +98,53 @@ body{
     vertical-align: baseline;
 }
 main{
-    background-image: url("bg.jpg");
-    background-size: cover;
-    height: 70vh;
+    height: 100vh;
 }
 
 .conteudo{
     margin-bottom: 48x;
-    
-    
+}
+
+/*-- Fim do body --*/
+/*-- Inicio do Footer --*/
+
+footer {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+.secoes {
+    max-width: 1700px;
+    margin: auto;
+}
+
+.informacoes {
+    display: flex;
+}
+
+.info1, .info2, .info3 {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    font-size: 12px;
+    color: rgb(158, 157, 157);
 
 }
+
+.info1>h1, .info2>h1, .info3>h1 {
+    color: rgb(255, 255, 255);
+}
+
+.divisao {
+    margin-top: 80px;
+    display: flex
+    
+}
+
+/*-- Fim do Footer --*/
 
 
 
