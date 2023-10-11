@@ -99,12 +99,13 @@ a {
     overflow: hidden;
 }
 
+
 .containercontato {
     margin-top: 100px;
     margin-bottom: 100px;
     display: flex;
-    
 }
+
 
 .sociasbotao i {
    margin-right: 22px;
@@ -113,8 +114,8 @@ a {
 
 }
 
-.containercontato h2 {
-    font-size: 28px;
+.containercontato h4 {
+    font-size: 30px;
     color: #000000;
 }
 
@@ -124,23 +125,26 @@ a {
     margin-bottom: 20px;
 }
 
-.dados h3 {
-    color: #333;
-    margin-top: 10px;
-}
-
-.dados ul {
-    list-style: none;
+.dados1 {
+    text-align: left;
+    margin: 0;
     padding: 0;
 }
 
-.dados li {
-    font-size: 16px;
-    color: #000000;
-    margin-bottom: 10px;
+.dados1 ul {
+    padding: 0;
+    list-style: none;
+    margin-left: 0;
 }
 
-.dados li a {
+.dados1 li {
+    
+    color: #000000;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.dados1 li a {
     text-decoration: none;
     color: #007bff;
 }
@@ -170,14 +174,9 @@ a {
    
 }
 
-
-
-
 /*fim contatos*/
-
-
-
 /*-- Fim do body --*/
+
 /*-- Inicio do Footer --*/
 
 footer {
@@ -185,6 +184,7 @@ footer {
     margin: 0;
     box-sizing: border-box;
     background-color: #000;
+    
 }
 
 .secoes {
@@ -204,6 +204,13 @@ footer {
     font-size: 12px;
     color: rgb(255, 255, 255);
 
+
+}
+
+.dados  {
+    list-style: none;
+    text-decoration: none;
+    
 }
 
 .info1>h1, .info2>h1, .info3>h1 {
