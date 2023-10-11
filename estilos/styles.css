@@ -92,6 +92,77 @@ a {
     color: #ff6600;
 }
 /*fim parallax*/
+/* contatos*/
+
+.containercontato {
+    margin-top: 40px;
+    
+}
+
+.containercontato {  
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.containercontato h2 {
+    font-size: 28px;
+    color: #000000;
+}
+
+.containercontato p {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.dados h3 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.dados ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dados li {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.dados li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.list-inline {
+    padding: 0;
+    list-style: none;
+}
+
+.list-inline-item {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.list-inline-item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+alterar .containermapa {
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+
+
+
+/*fim contatos*/
 
 
 
@@ -120,18 +191,12 @@ footer {
     padding-left: 50px;
     padding-bottom: 50px;
     font-size: 12px;
-    color: rgb(158, 157, 157);
+    color: rgb(255, 255, 255);
 
 }
 
 .info1>h1, .info2>h1, .info3>h1 {
     color: rgb(255, 255, 255);
-}
-
-.divisao {
-    margin-top: 80px;
-    display: flex
-    
 }
 
 /*-- Fim do Footer --*/
