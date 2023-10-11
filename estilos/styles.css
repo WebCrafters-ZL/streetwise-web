@@ -47,6 +47,52 @@ a {
 /*-- Fim do Header --*/
 /*-- Inicio do Body --*/
 
+/*parallax*/
+.parallax {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.parallax video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.containertext1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+}
+
+.h1parallax {
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.lead {
+    font-size: 1.5rem;
+    color: #ff6600;
+}
+/*fim parallax*/
+
 
 
 /*-- Fim do body --*/
