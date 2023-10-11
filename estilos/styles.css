@@ -116,13 +116,6 @@ a {
 
 .containercontato h4 {
     font-size: 30px;
-    color: #000000;
-}
-
-.containercontato p {
-    font-size: 16px;
-    color: #000000;
-    margin-bottom: 20px;
 }
 
 .dados1 {
@@ -133,36 +126,21 @@ a {
 
 .dados1 ul {
     padding: 0;
-    list-style: none;
-    margin-left: 0;
 }
 
-.dados1 li {
-    
-    color: #000000;
+.dados1 li { 
     margin-bottom: 10px;
     list-style: none;
 }
 
 .dados1 li a {
     text-decoration: none;
-    color: #007bff;
-}
-
-.list-inline {
-    padding: 0;
-    list-style: none;
-}
-
-.list-inline-item {
-    margin-right: 10px;
-    display: inline-block;
 }
 
 .list-inline-item a {
     text-decoration: none;
     color: #333;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #mapa {
