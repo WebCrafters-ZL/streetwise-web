@@ -42,8 +42,19 @@
 /*parallax*/
 .parallax {
     position: relative;
-    height: 100vh;
+    height: 100vh !important;
+    width: 100%;
     overflow: hidden;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .parallax video {
@@ -55,6 +66,7 @@
     width: auto;
     height: auto;
     transform: translateX(-50%) translateY(-50%);
+    background-attachment: fixed;
 }
 
 .overlay {
@@ -87,6 +99,30 @@
 
 /*-- Fim do Header --*/
 /*-- Inicio do Body --*/
+
+/* sobre */
+
+#sobre {
+    background-color: #ffffff; 
+    padding: 120px 0; 
+    
+}
+
+
+#sobre h1 {
+    font-size: 45px; 
+    color: #000000; 
+    margin-bottom: 60px; 
+}
+
+
+#sobre p {
+    font-size: 20px; 
+    line-height: 1.6; 
+    color: #000000; 
+    margin-bottom: 90px; /* Espaçamento abaixo dos parágrafos */
+}
+/*sobre*/
 
 /* contatos*/
 
@@ -192,7 +228,3 @@ footer {
 }
 
 /*-- Fim do Footer --*/
-
-
-
-
