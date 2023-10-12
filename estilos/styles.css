@@ -1,24 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 .containermain{
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;  
 }
 
 /*-- Header --*/
 
 .containerheader {
+    position: absolute;
     display: flex;
     align-items: center;
-    font-size:25px;
-    background-color: #FFA500;    
-}
-
-a {
-    cursor: pointer;
+    font-size: 25px;
+    width: 100%;    
 }
 
 .logo,.sociais{
@@ -43,9 +38,6 @@ a {
     font-size: 35px;
     color: #fff;
 }
-
-/*-- Fim do Header --*/
-/*-- Inicio do Body --*/
 
 /*parallax*/
 .parallax {
@@ -89,9 +81,13 @@ a {
 
 .lead {
     font-size: 1.5rem;
-    color: #ff6600;
+    color: #ffffff;
 }
 /*fim parallax*/
+
+/*-- Fim do Header --*/
+/*-- Inicio do Body --*/
+
 /* contatos*/
 
 .containercol1 {

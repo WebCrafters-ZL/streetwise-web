@@ -21,35 +21,33 @@
     <div class="container-custom containermain">
         <header>
             <script src="scripts/main.js"></script>
-            <div class="container-fluid containerheader p-2 ">
-                <div class="logo"><img src="imagens/logoSW.png" alt=""></div>
-                <div class="container-fluid col-7 ">
-                        <nav>
-                            <a class="container-fluid m-3 text-white text-decoration-none" href="#inicio">Início</a>
-                            <a class="container-fluid m-3 text-white text-decoration-none" href="#sobre">Sobre</a>
-                            <a class="container-fluid m-3 text-white text-decoration-none" href="#artistas">Artistas</a>
-                            <a class="container-fluid m-3 text-white text-decoration-none" href="#contato">Contato</a>
-                        </nav>
-                </div>
-                <div class="sociais">
-                    <button><i class="fa-brands fa-instagram"></i></button>
-                    <button><i class="fa-brands fa-whatsapp"></i></button>
-                    <button><i class="fa-brands fa-tiktok"></i></button>
+            <div class="parallax" id="inicio">
+                <video autoplay loop muted >
+                    <source src="video/acessa.mp4" type="video/mp4">
+                </video>
+                <nav class="containerheader p-2">
+                    <div class="logo"><img src="imagens/logoSW.png" alt=""></div>
+                    <div class="container-fluid col-7">
+                        <a class="container-fluid m-3 text-white text-decoration-none" href="#sobre">Sobre</a>
+                        <a class="container-fluid m-3 text-white text-decoration-none" href="#artistas">Artistas</a>
+                        <a class="container-fluid m-3 text-white text-decoration-none" href="#contato">Contato</a>
+                        <a class="container-fluid m-3 text-white text-decoration-none" href="#Loja">Loja</a>
+                    </div>
+                    <div class="sociais">
+                        <button><i class="fa-brands fa-instagram"></i></button>
+                        <button><i class="fa-brands fa-whatsapp"></i></button>
+                        <button><i class="fa-brands fa-tiktok"></i></button>
+                    </div>
+                </nav>
+                <div class="container containertext1 text-center">
+                    <h1 class="display-4 h1parallax">Streetwise Tattoo</h1>
+                    <p class="lead">Arte corporal excepcional, criatividade ilimitada e qualidade de classe mundial.</p>
                 </div>
             </div>
         </header>
-        <main>
-            <div class="parallax" id="inicio">
-                <video autoplay loop muted>
-                    <source src="video/acessa.mp4" type="video/mp4">
-                </video>
-                    <div class="container containertext1 text-center">
-                        <h1 class="display-4 h1parallax">Streetwise Tattoo</h1>
-                        <p class="lead">Arte corporal excepcional, criatividade ilimitada e qualidade de classe mundial.</p>
-                    </div>
-            </div>
-            <article id="sobre">
-                <h2>Sobre</h2>
+    </div>
+        <article id="sobre">
+             <h2>Sobre</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sapiente sunt quidem ipsum minus
                     delectus atque, veritatis praesentium! Sequi nihil magnam corporis debitis nesciunt numquam harum
                     ratione nemo fugit optio.</p>
@@ -59,9 +57,9 @@
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam repellendus nobis laudantium,
                     consectetur mollitia rerum laboriosam consequuntur commodi, ipsum incidunt est perspiciatis ut porro
                     at quibusdam, asperiores a explicabo ad?</p>
-            </article>
-            <section id="artistas">
-                <h2>Artistas</h2>
+      </article>
+        <section id="artistas">
+             <h2>Artistas</h2>
                 <div class="card-group">
                     <div class="card">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Exampleavatar.png"
@@ -109,7 +107,7 @@
                         <a href="#" class="btn btn-primary">Perfil</a>
                     </div>
                 </div>
-            </section>
+        </section>
         </main>
         <section id="contato">
             <div class="container containercontato">
@@ -147,8 +145,7 @@
                     </div>
                 </div>
             </div>
-        </section>
-        
+        </section>   
         <footer>
             <div class="secoes">
                 <section class="informacoes">
