@@ -28,17 +28,23 @@
     height: auto;
 }
 
-.sociais button{
+.sociais a {
+    display: inline-block; 
     width: 52px;
     height: 52px;
     background-image: linear-gradient(45deg, #f87902, #ff9900);
     border: none;
     margin-right: 22px;
-    border-radius:12px;
+    border-radius: 12px;
     cursor: pointer;
     font-size: 35px;
     color: #fff;
+    text-align: center; 
+    line-height: 52px; 
+    text-decoration: none; 
 }
+
+
 
 /*parallax*/
 .parallax {
@@ -180,7 +186,7 @@
     border-radius: 10px;
     overflow: hidden;
     margin-top: 5px;
-    width: 200%;
+    width: 180%;
     height: 350px;
    
 }
@@ -190,42 +196,29 @@
 
 /*-- Inicio do Footer --*/
 
-footer {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.footer-com-transicao {
     background-color: #000;
-    
+    color: #fff;
+    padding-top: 10px; 
+    box-shadow: 0px -10px 10px -10px rgba(255, 255, 255, 0.5); 
 }
 
-.secoes {
-    max-width: 1700px;
-    margin: auto;
+.footer-com-transicao .secoes {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px; 
 }
 
-.informacoes {
+.footer-com-transicao .informacoes {
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.info1, .info2, .info3 {
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-bottom: 50px;
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-
-
-}
-
-.dados  {
-    list-style: none;
-    text-decoration: none;
-    
-}
-
-.info1>h1, .info2>h1, .info3>h1 {
-    color: rgb(255, 255, 255);
+.footer-com-transicao .info {
+    width: 300px;
+    padding: 20px;
+    text-align: left;
 }
 
 /*-- Fim do Footer --*/
