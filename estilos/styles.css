@@ -112,26 +112,26 @@
 #sobre {
     background-color: #ffffff;
     padding: 50px 0;
-    text-align: center; /* Centraliza o conteúdo */
+    text-align: center; 
 }
 
 #sobre h1 {
     font-size: 45px;
     color: #000000;
     margin-bottom: 60px;
-    position: relative; /* Posição relativa para o elemento pai */
-    display: inline-block; /* Para o pseudo-elemento se alinhar corretamente */
+    position: relative; 
+    display: inline-block; 
 }
 
 #sobre h1::after {
     content: '';
     position: absolute;
-    bottom: -10px; /* Posição vertical do sublinhado */
-    left: 50%; /* Alinha ao centro */
-    transform: translateX(-50%); /* Ajusta o alinhamento */
-    width: 190px; /* Largura do sublinhado */
-    height: 3px; /* Altura do sublinhado */
-    background-color: #f87902; /* Cor do sublinhado */
+    bottom: -10px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 190px; 
+    height: 3px; 
+    background-color: #f87902; 
 }
 
 #sobre p {
