@@ -16,7 +16,10 @@ h6 {
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: .2rem;
     word-spacing: .2rem;
+    font-size: 3rem;
 }
+
+
 
 .underline-title {
     border-bottom: 4px solid #FFA72A;
@@ -32,7 +35,7 @@ header  {
 
 
 header h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     letter-spacing: .9rem;
     word-spacing: .3rem;
 }
@@ -111,7 +114,7 @@ header .nav-link {
 
 .btn {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.9rem;
     letter-spacing: .2rem;
     background-color: #FFA72A;
     color: #FFFFFF;
@@ -139,10 +142,15 @@ header .nav-link {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.orcamento {
+    margin-top: 45px;
+}
+
 footer {
     background-color: #FFA72A;
     color: #FFFFFF;
     text-shadow: 1px 1px #23252A;
+    margin-top: 75px;
 }
 
 .btn-back-to-top {
@@ -150,5 +158,11 @@ footer {
     bottom: 20px;
     right: 20px;
     display: none;
+    border-radius: 20%;
+    border: 3px solid black;
+}
+
+.btn-back-to-top .bi-arrow-up {
+    color: black; 
 }
 
