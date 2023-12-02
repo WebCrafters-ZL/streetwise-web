@@ -29,6 +29,7 @@ header {
 }
 
 header h1 {
+    font-size: 4rem;
     letter-spacing: .6rem;
     word-spacing: .3rem;
 }
@@ -51,7 +52,7 @@ header h1 {
 
 .nav-link {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     letter-spacing: .2rem;
     color: #FFA72A;
     -webkit-text-stroke: 1px #000000;
@@ -129,30 +130,10 @@ header h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.contato a {
-    text-decoration: none;
-    color: #000000;
-}
-
-.contato a:hover {
-    color: #F49329;
-    text-shadow: 1px 1px #23252A;
-}
-
 footer {
     background-color: #FFA72A;
     color: #FFFFFF;
     text-shadow: 1px 1px #23252A;
-}
-
-footer a {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-footer a:hover {
-    font-weight: bold;
-    text-shadow: 1px 1px 2px #23252A;
 }
 
 .btn-back-to-top {
