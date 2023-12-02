@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
 
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 #p-estatico {
     font-size: 160%;
 }
@@ -16,7 +18,7 @@ h6 {
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: .2rem;
     word-spacing: .2rem;
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 
 
@@ -32,13 +34,20 @@ header  {
     color: #FFA72A;
     -webkit-text-stroke: 1px #000000;
 }
-
+ 
 
 header h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     letter-spacing: .9rem;
     word-spacing: .3rem;
 }
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.2rem; 
+    }
+}
+
+
 
 header .nav-link {
     font-size: 35px;
