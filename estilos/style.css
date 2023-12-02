@@ -4,7 +4,9 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
+#p-estatico {
+    font-size: 160%;
+}
 h1,
 h2,
 h3,
@@ -20,7 +22,7 @@ h6 {
     border-bottom: 4px solid #FFA72A;
 }
 
-header {
+header  {
     background-image: url("../imagens/header-background.png");
     background-color: #000000;
     background-size: cover;
@@ -28,11 +30,17 @@ header {
     -webkit-text-stroke: 1px #000000;
 }
 
+
 header h1 {
     font-size: 4rem;
-    letter-spacing: .6rem;
+    letter-spacing: .9rem;
     word-spacing: .3rem;
 }
+
+header .nav-link {
+    font-size: 35px;
+}
+
 
 .navbar-brand {
     width: 20%;
@@ -56,6 +64,7 @@ header h1 {
     letter-spacing: .2rem;
     color: #FFA72A;
     -webkit-text-stroke: 1px #000000;
+    margin-right: 20px;
 }
 
 .nav-link:hover {
@@ -142,3 +151,4 @@ footer {
     right: 20px;
     display: none;
 }
+
