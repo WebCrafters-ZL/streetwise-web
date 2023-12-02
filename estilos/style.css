@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: .2rem;
+    word-spacing: .2rem;
+}
+
+.underline-title {
+    border-bottom: 4px solid #FFA72A;
+}
+
+header {
+    background-image: url("../imagens/header-background.png");
+    background-color: #000000;
+    background-size: cover;
+    color: #FFA72A;
+    text-shadow: 1px 1px #23252A;
+}
+
+.navbar-brand {
+    width: 20%;
+}
+
+.navbar-brand .logo {
+    width: 100%;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #FFA72A;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(244, 147, 41, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-link {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+    color: #FFA72A;
+    text-shadow: 1px 1px #23252A;
+}
+
+.nav-link:hover {
+    color: #FFA72A;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.increased-size {
+    width: 180%;
+    height: auto;
+}
+
+.border-custom {
+    border: 8px solid #FFA72A;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card .card-body img {
+    max-height: 520px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: none;
+    border: 8px solid#FFA72A;
+}
+
+.btn {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+    background-color: #FFA72A;
+    color: #FFFFFF;
+    text-shadow: 1px 1px #23252A;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background-color: #F49329;
+    color: #FFFFFF;
+    text-shadow: 1px 1px #000000;
+}
+
+.btn:active {
+    background-color: #F49329;
+    color: #000000;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+.btn:active:focus {
+    background-color: #000000;
+    color: #F49329;
+    text-shadow: 1px 1px 4px #23252A;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contato a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer {
+    background-color: #F49329;
+    color: #FFFFFF;
+    text-shadow: 1px 1px #23252A;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000000;
+}
