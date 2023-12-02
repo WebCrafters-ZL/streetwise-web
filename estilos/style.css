@@ -25,7 +25,7 @@ header {
     background-color: #000000;
     background-size: cover;
     color: #FFA72A;
-    -webkit-text-stroke: 1px #000000;
+    text-shadow: 1px 1px #23252A;
 }
 
 header h1 {
@@ -54,14 +54,12 @@ header h1 {
     font-size: 1.2rem;
     letter-spacing: .2rem;
     color: #FFA72A;
-    -webkit-text-stroke: 1px #000000;
+    text-shadow: 1px 1px #23252A;
 }
 
 .nav-link:hover {
-    color: #F49329;
+    color: #FFA72A;
     text-shadow: 1px 1px 2px #000000;
-    -webkit-text-stroke: 0;
-
 }
 
 .increased-size {
@@ -87,16 +85,6 @@ header h1 {
     object-fit: cover;
     border-radius: none;
     border: 8px solid#FFA72A;
-}
-
-.artistas .modal .card-footer a {
-    text-decoration: none;
-    color: #000000;
-}
-
-.artistas .modal .card-footer a:hover {
-    color: #F49329;
-    text-shadow: 1px 1px #23252A;
 }
 
 .btn {
@@ -134,11 +122,6 @@ header h1 {
     color: #000000;
 }
 
-.contato a:hover {
-    color: #F49329;
-    text-shadow: 1px 1px #23252A;
-}
-
 footer {
     background-color: #FFA72A;
     color: #FFFFFF;
@@ -152,7 +135,7 @@ footer a {
 
 footer a:hover {
     font-weight: bold;
-    text-shadow: 1px 1px 2px #23252A;
+    text-shadow: 1px 1px 2px #000000;
 }
 
 .btn-back-to-top {
@@ -160,4 +143,4 @@ footer a:hover {
     bottom: 20px;
     right: 20px;
     display: none;
-}
+  }
