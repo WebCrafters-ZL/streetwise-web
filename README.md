@@ -32,7 +32,7 @@ Para o próximo Sprint queremos implementar um sistema de login onde os tatuador
 
 [Leonardo Euripedes da Silva](https://www.github.com/leoesilva)
 
-[Ricardo de Oliveira Silva Filho](https://www.github.com/leoesilva)
+[Ricardo de Oliveira Silva Filho](https://www.github.com/ricrdofilho)
 
 [Rodrigo da Costa Catto](https://www.github.com/RodrigoCatto239)
 
