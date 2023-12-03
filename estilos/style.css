@@ -46,15 +46,6 @@ header h1 {
         font-size: 2.2rem; 
     }
 }
-/*
-@media screen and (min-width: 768px) and (max-width: 832px) {
-    .destacado h5 {
-      font-size: 44px; 
-    }
-}
-*/
-
-
 
 header .nav-link {
     font-size: 35px;
@@ -158,6 +149,14 @@ header .nav-link {
     text-shadow: 1px 1px 4px #23252A;
     border: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 767px) {
+    .section-btn .btn {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        
+    }
 }
 
 .orcamento {
