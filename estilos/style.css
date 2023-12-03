@@ -185,6 +185,17 @@ footer {
     margin-top: 45px;
 }
 
+footer a {
+    font-size: 18px;
+    color: inherit; 
+    text-decoration: none; 
+    margin-right: 40px;
+  }
+  
+  footer a:hover {
+    color: #000000; 
+  }
+
 .btn-back-to-top {
     position: fixed;
     bottom: 20px;
