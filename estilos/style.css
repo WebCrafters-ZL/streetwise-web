@@ -155,11 +155,15 @@ header .nav-link {
     margin-top: 45px;
 }
 
+.contato {
+    margin-top: 45px;
+}
+
 footer {
     background-color: #FFA72A;
     color: #FFFFFF;
     text-shadow: 1px 1px #23252A;
-    margin-top: 75px;
+    margin-top: 45px;
 }
 
 .btn-back-to-top {
