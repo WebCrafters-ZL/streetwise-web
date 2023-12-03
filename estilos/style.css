@@ -96,11 +96,10 @@ header .nav-link {
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 1rem;
+    
 }
-
-.artistas .card {
+.artistas .card, .card-body, .card-header, .card-footer {
     border: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .artistas .card .card-body img {
@@ -109,16 +108,19 @@ header .nav-link {
     object-fit: cover;
     border-radius: none;
     border: 8px solid#FFA72A;
+    
 }
 
 .artistas .modal .card-footer a {
     text-decoration: none;
     color: #000000;
+    
 }
 
 .artistas .modal .card-footer a:hover {
     color: #F49329;
     text-shadow: 1px 1px #23252A;
+    
 }
 
 .btn {
@@ -154,9 +156,19 @@ header .nav-link {
 .orcamento {
     margin-top: 45px;
 }
+.orcamento #container-orcamento-h2 {
+    margin-bottom: 50px;
+}
 
 .contato {
     margin-top: 45px;
+}
+.contato #container-contato-h2 {
+    margin-bottom: 45px;
+}
+
+.contato .card {
+    border: none; /* Remove a borda */
 }
 
 footer {
