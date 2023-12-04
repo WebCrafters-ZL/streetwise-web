@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
 
-
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
-#p-estatico {
-    font-size: 120%;
+.p-estatico {
+    font-size: 160%;
 }
+
 h1,
 h2,
 h3,
@@ -18,39 +18,32 @@ h6 {
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: .2rem;
     word-spacing: .2rem;
-    font-size: 2.0rem;
+    font-size: 2rem;
 }
-
-
 
 .underline-title {
     border-bottom: 4px solid #FFA72A;
 }
 
-header  {
+header {
     background-image: url("../imagens/header-background.png");
     background-color: #000000;
     background-size: cover;
     color: #FFA72A;
     -webkit-text-stroke: 1px #000000;
 }
- 
 
 header h1 {
     font-size: 4rem;
     letter-spacing: .9rem;
     word-spacing: .3rem;
 }
+
 @media (max-width: 768px) {
     header h1 {
-        font-size: 2.2rem; 
+        font-size: 2.2rem;
     }
 }
-
-header .nav-link {
-    font-size: 35px;
-}
-
 
 .navbar-brand {
     width: 20%;
@@ -70,18 +63,16 @@ header .nav-link {
 
 .nav-link {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.5rem;
+    font-size: 35px;
     letter-spacing: .2rem;
     color: #FFA72A;
     -webkit-text-stroke: 1px #000000;
-    margin-right: 20px;
 }
 
 .nav-link:hover {
     color: #F49329;
     text-shadow: 1px 1px 2px #000000;
     -webkit-text-stroke: 0;
-
 }
 
 .increased-size {
@@ -94,9 +85,12 @@ header .nav-link {
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 1rem;
-    
 }
-.artistas .card, .card-body, .card-header, .card-footer {
+
+.artistas .card,
+.card-body,
+.card-header,
+.card-footer {
     border: none;
 }
 
@@ -106,24 +100,15 @@ header .nav-link {
     object-fit: cover;
     border-radius: none;
     border: 8px solid#FFA72A;
-    
 }
 
-.artistas .modal .card-footer a {
-    text-decoration: none;
-    color: #000000;
-    
-}
-
-.artistas .modal .card-footer a:hover {
-    color: #F49329;
-    text-shadow: 1px 1px #23252A;
-    
+.artistas .modal .card-footer .btn {
+    font-size: .75rem;
 }
 
 .btn {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     letter-spacing: .2rem;
     background-color: #FFA72A;
     color: #FFFFFF;
@@ -151,60 +136,42 @@ header .nav-link {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 767px) {
-    .section-btn .btn {
-        font-size: 1.5rem;
-        margin-bottom: 10px;
-        
-    }
-}
-
-.orcamento {
-    margin-top: 45px;
-}
-.orcamento #container-orcamento-h2 {
-    margin-bottom: 50px;
-}
-
-.contato {
-    margin-top: 45px;
-}
-.contato #container-contato-h2 {
-    margin-bottom: 45px;
-}
-
-.contato .card {
-    border: none; /* Remove a borda */
-}
-
 footer {
     background-color: #FFA72A;
     color: #FFFFFF;
     text-shadow: 1px 1px #23252A;
-    margin-top: 45px;
 }
 
-footer a {
-    font-size: 18px;
-    color: inherit; 
-    text-decoration: none; 
-    margin-right: 40px;
-  }
-  
-  footer a:hover {
-    color: #000000; 
-  }
+footer .btn {
+    border: 1px solid #FFFFFF;
+}
+
+footer .btn:hover {
+    border: 1px solid #FFFFFF;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer ul li a:hover {
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px #23252A;
+}
 
 .btn-back-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
     display: none;
-    border-radius: 20%;
-    border: 3px solid black;
+    border: 1px solid #FFFFFF;
 }
 
-.btn-back-to-top .bi-arrow-up {
-    color: black; 
+.btn-back-to-top:hover {
+    border: 1px solid #FFFFFF;
 }
 
+.copyright {
+    border-top: 4px solid #FFFFFF;
+}
