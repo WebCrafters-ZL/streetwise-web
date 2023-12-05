@@ -80,6 +80,19 @@ header h1 {
     height: auto;
 }
 
+.video-container {
+    width: 100%;
+    max-width: 420px; 
+    margin: 0 auto; 
+    overflow: hidden; 
+}
+
+.video-container video {
+    width: auto; 
+    height: 100%;
+    object-fit: cover; 
+}
+
 .border-custom {
     border: 8px solid #FFA72A;
     border-radius: 0.5rem;
